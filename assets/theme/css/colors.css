@@ -1,0 +1,25 @@
+.bgcolor {
+    background-color: #4a3121 !important;
+}
+
+.profile .prof-pic img {
+    border-color: #4a3121;
+}
+
+.profile .prof-pic hr {
+    border-top-color: #4a3121;
+}
+
+.profile .prof-desc h1,
+.profile .prof-desc p {
+    color: #4a3121;
+}
+
+.nav ul a {
+    color: #4a3121;
+}
+
+.nav ul li {
+    border-left-color: #4a3121;
+}
+
