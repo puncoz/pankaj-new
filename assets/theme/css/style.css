@@ -84,7 +84,6 @@ html, body {
     display: inline-block;
     border-left-style: solid;
     border-left-width: 2px;
-    padding: 0 10px;
 }
 .nav ul li:first-child {
     border: none;
@@ -94,6 +93,32 @@ html, body {
     font-weight: bold;
     font-size: 18px;
     font-variant: small-caps;
+    padding: 10px;
 }
 
+.section.blog-wrapper {
+    padding: 0;
+    margin-top: 40px;
+}
 
+.blog-wrapper .post h3 {
+    font-family: 'Economica', sans-serif;
+    font-size: 30px;
+}
+.blog-wrapper .post .content {
+    font-family: 'Handlee', cursive;
+    font-size: 20px;
+}
+.blog-wrapper .post .content img {
+    width: 100%;
+}
+.blog-wrapper .post time {
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    opacity: .5;
+}
+
+.pagination li i {
+    font-size: 1rem;
+    vertical-align: middle;
+}
